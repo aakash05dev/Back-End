@@ -1,0 +1,71 @@
+Creating Django Application:
+--------------------------------------
+
+1.Open Command prompt (run as Administrator)
+
+2.Check python version:
+
+	-> python --version
+
+3.Create virtual environment:
+
+	-> python -m venv myworld
+
+4.Activate virtual environment:
+
+	-> myworld\scripts\activate.bat
+
+5.Install Django:
+
+	-> python -m pip install Django
+
+6.Create virtual environment folder:
+
+	-> cd myworld
+
+7.Check Django version:
+
+	-> django-admin --version
+
+8.Create Django project:
+
+	-> django-admin startproject project1
+
+9.Create project folder:
+
+	-> cd project1
+
+10. Start Server:
+
+	-> python manage.py runserver
+  
+     After run:
+    -----------
+      Starting development server at 
+       " http://127.0.0.1:8000/ "
+
+
+11. Open the browser:
+
+	Enter this URL in browser:
+         " http://127.0.0.1:8000/ "
+    
+    After:
+    -------
+     
+      You should see the Django welcome page.
+
+
+12.Stop the server:
+
+	-> Ctrl + c
+
+13.Deactivate virtual environment:
+
+	->  cd..
+	
+	-> myworld\scripts\deactivate.bat
+
+
+
+
